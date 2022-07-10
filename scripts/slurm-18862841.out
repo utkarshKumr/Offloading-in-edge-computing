@@ -1,0 +1,37 @@
+no change     /share/apps/anaconda2/2019.10/condabin/conda
+no change     /share/apps/anaconda2/2019.10/bin/conda
+no change     /share/apps/anaconda2/2019.10/bin/conda-env
+no change     /share/apps/anaconda2/2019.10/bin/activate
+no change     /share/apps/anaconda2/2019.10/bin/deactivate
+no change     /share/apps/anaconda2/2019.10/etc/profile.d/conda.sh
+no change     /share/apps/anaconda2/2019.10/etc/fish/conf.d/conda.fish
+no change     /share/apps/anaconda2/2019.10/shell/condabin/Conda.psm1
+no change     /share/apps/anaconda2/2019.10/shell/condabin/conda-hook.ps1
+no change     /share/apps/anaconda2/2019.10/lib/python2.7/site-packages/xontrib/conda.xsh
+no change     /share/apps/anaconda2/2019.10/etc/profile.d/conda.csh
+no change     /home/av2783/.bashrc
+No action taken.
+Could not open a connection to your authentication agent.
+/home/av2783/.bashrc: line 21: hadoop: command not found
+/home/av2783/.bashrc: line 22: hadoop: command not found
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX512F instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+/home/av2783/.conda/envs/tf1.0v1/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:471: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/av2783/.conda/envs/tf1.0v1/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:472: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/av2783/.conda/envs/tf1.0v1/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:473: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/av2783/.conda/envs/tf1.0v1/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:474: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/av2783/.conda/envs/tf1.0v1/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:475: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/av2783/cml/edgeComputing/Alpha/MUMT.py:21: FutureWarning: The join_axes-keyword is deprecated. Use .reindex or .reindex_like on the result to achieve the same functionality.
+  self.Data = pd.concat([self.Datain, self.Dataout], axis=1,join_axes=[self.Datain.index])
+/home/av2783/cml/edgeComputing/Alpha/MUMT.py:40: FutureWarning: The join_axes-keyword is deprecated. Use .reindex or .reindex_like on the result to achieve the same functionality.
+  self.XC = pd.concat([self.X, self.C], axis=1,join_axes=[self.Datain.index])
